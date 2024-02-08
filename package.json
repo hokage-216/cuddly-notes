@@ -2,7 +2,7 @@
   "name": "cuddly-notes",
   "version": "1.0.0",
   "description": "note taking application",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "jest"
