@@ -4,7 +4,6 @@
   "description": "note taking application",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
     "start": "node server.js"
   },
   "engines": {
