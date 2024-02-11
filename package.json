@@ -2,18 +2,23 @@
   "name": "cuddly-notes",
   "version": "1.0.0",
   "description": "note taking application",
-  "main": "server.js",
+  "main": "./public/assets/js/index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node ./public/assets/js/index.js"
   },
+  "engines": {
+    "node": "14.x"
+  },  
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/hokage-216/cuddly-notes.git"
   },
   "keywords": [
     "notes",
-    "note-taking"
+    "note-taking",
+    "heroku"
   ],
   "author": "LeVente Berry Jr.",
   "license": "MIT",
