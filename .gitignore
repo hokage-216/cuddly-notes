@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Local development
+*.env
+*.dev
+.DS_Store
+.idea
